@@ -5,7 +5,7 @@ int main(){
   int odd;
   printf("enter range");
   scanf("%d",&user_input);
-  printf("Even numbers  :");
+  printf("Even numbers :");
   for(int i=2;i<=user_input;i=i+2){
      printf("%d ",i);
   }
