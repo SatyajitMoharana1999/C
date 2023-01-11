@@ -10,4 +10,5 @@ int main(){
     reverse=reverse*10+reminder;
   }
   printf("%d",reverse);
+  return 0;
 }
