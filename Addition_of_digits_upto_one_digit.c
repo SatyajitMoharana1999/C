@@ -7,7 +7,7 @@ int main(){
   while(number>=10){
     sum=0;
     for(int i=number;i>0;i=i/10){
-      sum=sum+number%i;
+      sum=sum+i%10;
     }
     number=sum;
   }
