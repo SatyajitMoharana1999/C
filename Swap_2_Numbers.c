@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 int main(){
   int a,b,c;
   printf("Enter value for a");
@@ -9,6 +9,6 @@ int main(){
   c=a;
   a=b;
   b=c;
-  printf("After swapping a=%d  b=%d",a,b);
+  printf("\nAfter swapping a=%d  b=%d",a,b);
   return 0;
 }
